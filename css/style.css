@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-topo {
+  background-color: rgba(255, 109, 149, 255);
+  padding: 25px 55px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+}
+.container-logo {
+  width: 285px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topo-links {
+  width: 385px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 35px;
+}
+.container-logo p {
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
+}
+.topo-links a{
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+.container-logo-image {
+  width: 350px;
+}
+.container-logo-image img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.banner {
+  width: 100%;
+  padding: 70px 0px;
+  display: flex;
+  justify-content: space-around;
+  background: rgba(255, 189, 129, 255);
+}
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+/**/
+.separa {
+  padding: 40px 0;
+  background-color: rgba(255, 159, 129, 255);
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  font-size: 30px;
+}
+.colorir {
+  background-color: rgba(255, 109, 149, 255);
+}
+.texto-branco {
+  color: #fff;
+}
+.paragrafo-separa {
+  text-align: center;
+  justify-content: center;
+  max-width: 500px;
+}
+
+.titulo {
+  background-color: #f0f0f0;
+  padding: 20px;
+  color: rgb(250, 53, 106);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+/*banner da pagina*/
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+.paragrafo-flex {
+  flex: 1 1 300px;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.container-image {
+  flex: 1 1 468px;
+}
+.container-image img {
+  width: 100%;
+  height: 100%;
+}
+.secao-banner {
+  background-color: rgba(255, 189, 129, 255);
+  padding: 90px 0px;
+}
+.container-banner div {
+  color: #fff;
+  width: 470px;
+}
+.container-banner div p {
+  font-size: 16px;
+  line-height: 26px;
+  word-spacing: 3px;
+}
+.container-banner div h2 {
+  font-size: 28px;
+  line-height: 40px;
+  margin: 20px 0px;
+}
+
+/*preco*/
+.cardapio {
+  background-color: #f0f0f0;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.limit {
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.card {
+  width: 250px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 10px 1px gray;
+}
+.image-card {
+  height: 250px;
+  border: 2px solid rgba(255, 109, 149, 255);
+}
+.image-card img {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+}
+.paragrafo-cardapio {
+  height: 150px;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.paragrafo-cardapio h3 {
+  font-size: 18px;
+}
+.preco {
+  padding: 10px;
+  border-top: 1px solid #c9c4c4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-rodape {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  width: 100%;
+  background-color: rgba(255, 189, 129, 255);
+}
+.container-imagem {
+  width: 100px;
+}
+.container-imagem img {
+  width: 100%;
+  height: 100%;
+}
+.container-contato {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.container-contato div {
+  padding: 10px 0;
+  border: 1px solid gray;
+  border-radius: 4px;
+  flex: 1 1 240px;
+  text-align: center;
+}
+
+.container-descricao {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.container-descricao a {
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-size: cover;
+  background-color: #dddddd;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 40px;
+  right: 0px;
+}
+a img {
+  width: 40px;
+  height: 40px;
+}
+.container-redes-sociais img {
+  width: 30px;
+  margin-right: 5px;
+}
+.paragrafo-rodape h1 {
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+}
+.centralizar{
+  display: flex;
+  justify-content: space-around;
+}
